@@ -1,13 +1,13 @@
 {
   "name": "elevaty-logger",
-  "version": "1.0.3",
+  "version": "1.0.0",
   "description": "A library to format and send logs following a specific pattern for the SQS queues of elevaty applications, as defined by the system architecture.",
   "main": "lib/es5/index.js",
   "module": "lib/es6/index.js",
   "sideEffects": false,
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lucatsf/elevaty-logger"
+    "url": "git+https://github.com/elevatytech/elevaty-logger-lib"
   },
   "files": [
     "lib",
@@ -21,12 +21,12 @@
     "log",
     "elevaty"
   ],
-  "author": "Lucas Torres <lucastorresfellicio@gmail.com>",
+  "author": "Andre Marllus <andre.marllus@elevaty.com.br",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/lucatsf/elevaty-logger/issues"
+    "url": "https://github.com/elevatytech/elevaty-logger-lib/issues"
   },
-  "homepage": "https://github.com/lucatsf/elevaty-logger#readme",
+  "homepage": "https://github.com/elevatytech/elevaty-logger-lib#readme",
   "dependencies": {
     "@aws-sdk/client-sqs": "^3.398.0",
     "@types/node": "^20.5.6",
